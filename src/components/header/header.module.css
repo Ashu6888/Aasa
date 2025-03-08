@@ -1,0 +1,22 @@
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.started {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #4d47d4 0%, #ff00a8 100%);
+  width: 150px;
+  padding: 8px;
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 25px;
+}
