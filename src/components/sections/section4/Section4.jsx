@@ -74,6 +74,7 @@ const Section4 = () => {
 
   return (
     <div className={style.container}>
+      <h2 style={{ textAlign: "center" }}>FAQs</h2>
       {faqs.map((faq, index) => (
         <div key={index} className={style.faqItem}>
           <div className={style.question} onClick={() => toggleFAQ(index)}>
